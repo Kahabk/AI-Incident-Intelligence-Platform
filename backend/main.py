@@ -8,7 +8,7 @@ import os
 
 app = FastAPI()
 
-# 🔥 CORS (MANDATORY FOR UI / BROWSER)
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],   # in production: set specific domain
