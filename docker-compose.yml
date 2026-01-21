@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/data
+      - ./vector_store:/vector_store
+    env_file:
+      - .env
+    restart: always

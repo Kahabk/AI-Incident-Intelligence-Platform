@@ -1,0 +1,5 @@
+{
+  "name": "AI Incident Intelligence",
+  "description": "A high-performance RAG-powered platform for analyzing system logs and incident reports with grounded AI insights.",
+  "requestFramePermissions": []
+}
